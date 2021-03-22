@@ -149,27 +149,15 @@ if (function_exists('add_filter')) {
 }
 
 function pcpcreatorshortcode_amend_args( $args, $shortcode_atts)  {
-  $defaults = [
-    'component' => 'contribution',
-    'action' => NULL,
-    'mode' => NULL,
-    'id' => NULL,
-    'cid' => NULL,
-    'gid' => NULL,
-    'cs' => NULL,
-    'force' => NULL,
-    'pageId' => NULL,
-  ];
-  $shortcode_atts = shortcode_atts($defaults, $atts, 'civicrm');
   extract($shortcode_atts);
   if ($component === 'pcp') {
-    if ($action === 'add') {
+    if ($mode === 'add') {
       $args['q'] = 'civicrm/contribute/campaign';
-      $args['pageId'] = $pageId;
-      $args['action'] = $action;
+      $args['pageId'] = $id;
+      $args['action'] = $mode;
       $args['reset'] = 1;
       $args['force'] = $force;
-      $args['component'] = 'contribution';
+      $args['component'] = 'contribute';
     }
   }
   return $args;
