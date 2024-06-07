@@ -1,40 +1,10 @@
 # biz.jmaconsulting.pcpcreatorshortcode
 
-The extension is licensed under [AGPL-3.0](LICENSE.txt).
+We have moved the project space for this extension to CiviCRM's Gitlab.
+This includes both the issue tracking and support, and merge requests.
 
-## Requirements
+The new URL is: https://lab.civicrm.org/extensions/pcpcreatorshortcode
 
-* PHP v7.2+
-* CiviCRM (*FIXME: Version number*)
+All issues have been migrated to: https://lab.civicrm.org/extensions/pcpcreatorshortcode/-/issues
 
-## Installation (Web UI)
-
-Learn more about installing CiviCRM extensions in the [CiviCRM Sysadmin Guide](https://docs.civicrm.org/sysadmin/en/latest/customize/extensions/).
-
-## Installation (CLI, Zip)
-
-Sysadmins and developers may download the `.zip` file for this extension and
-install it with the command-line tool [cv](https://github.com/civicrm/cv).
-
-```bash
-cd <extension-dir>
-cv dl biz.jmaconsulting.pcpcreatorshortcode@https://github.com/JMAConsulting/biz.jmaconsulting.pcpcreatorshortcode/archive/master.ziz
-```
-
-## Installation (CLI, Git)
-
-Sysadmins and developers may clone the [Git](https://en.wikipedia.org/wiki/Git) repo for this extension and
-install it with the command-line tool [cv](https://github.com/civicrm/cv).
-
-```bash
-git clone https://github.com/JMAConsulting/biz.jmaconsulting.pcpcreatorshortcode.git
-cv en pcpcreatorshortcode
-```
-
-## Getting Started
-
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
-
-## Known Issues
-
-(* FIXME *)
+If you do not already have an account on CiviCRM's Gitlab, you can create an account by registering on https://civicrm.org/user
